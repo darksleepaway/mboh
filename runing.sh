@@ -5,4 +5,4 @@ WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )
 
 cd "$(dirname "$0")"
 chmod +x next
-./next --algo DAGGERHASHIMOTO --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
+./next --algo DaggerHashimoto --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
